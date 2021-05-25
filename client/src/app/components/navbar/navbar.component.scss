@@ -1,0 +1,42 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  font-family: sans-serif;
+  
+  text-align: center;
+  color: white;
+  font-size: large;
+  .logo {
+    flex: auto;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+  }
+
+  .regions {
+    flex: auto;
+    cursor: pointer;
+  }
+
+  .search {
+
+    flex: auto;
+    text-align: center;
+    border-color: rgba(92, 92, 92, 0.673);
+    border-radius: 3px;
+    background-color: rgba(56, 230, 230, 0.55);
+  }
+
+  .webcams {
+    cursor: pointer;
+    flex: 1;
+  }
+
+  .settings {
+    cursor: pointer;
+    flex: auto;
+  }
+
+
+}
