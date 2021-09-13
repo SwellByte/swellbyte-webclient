@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Nav/>
-      <Route path="/home" component={Landing}/>
+      <Route path="/" component={Landing}/>
       <Route path="/regions" component={Regions}/>
     </Router>
   );
